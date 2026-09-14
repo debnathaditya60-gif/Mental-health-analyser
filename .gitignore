@@ -1,0 +1,28 @@
+# Database — never push user data
+mindjournal.db
+mindjournal.db-wal
+mindjournal.db-shm
+mindjournal.db-journal
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit logs
+streamlit_out.txt
+streamlit_err.txt
+sl_out.txt
+sl_err.txt
+
+# Temp scripts
+_write*.py
+_check*.py
+_fix*.py
+_fm.py
+_vf.py
+_ck.py
